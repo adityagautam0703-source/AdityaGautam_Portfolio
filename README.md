@@ -2,7 +2,7 @@
 
 A scroll-driven, single-page portfolio site built as a "pipeline" narrative — a WebGL (Three.js) background scene that responds to scroll position, layered under glassmorphic content panels animated in with GSAP ScrollTrigger.
 
-**Live demo:** _add your deployed URL here once published_
+**Live demo:** https://adityagautamportfolio.netlify.app/
 
 ## ✨ Features
 
@@ -19,7 +19,7 @@ A scroll-driven, single-page portfolio site built as a "pipeline" narrative — 
 .
 ├── index.html      # Entire site: markup, styles, content data, and scripts
 ├── README.md        # This file
-└── LICENSE           # MIT license
+└── .gitignore       
 ```
 
 Everything — CSS, content data, render logic, and the two Three.js scenes — lives inside `index.html`, organized into clearly labeled sections (see the comment block at the top of the file for a map).
@@ -61,6 +61,3 @@ This is a static site, so it can be hosted anywhere that serves static files:
 - [GSAP](https://gsap.com/) + [ScrollTrigger](https://gsap.com/docs/v3/Plugins/ScrollTrigger/) — scroll-driven animation
 - [Space Grotesk](https://fonts.google.com/specimen/Space+Grotesk), [Inter](https://fonts.google.com/specimen/Inter), [JetBrains Mono](https://fonts.google.com/specimen/JetBrains+Mono) — via Google Fonts
 
-## 📄 License
-
-MIT — see [LICENSE](LICENSE).
